@@ -5,12 +5,12 @@
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `queue` to your list of dependencies in `mix.exs`:
+by adding `queue_ex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:queue, "~> 0.1.0"}
+    {:queue_ex, "~> 0.1.0"}
   ]
 end
 ```
