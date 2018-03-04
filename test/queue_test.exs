@@ -30,7 +30,7 @@ defmodule QueueTest do
   end
 
   test "dequeue", %{queue: queue} do
-    assert Queue.dequeue(queue) == :nil
+    assert Queue.dequeue(queue) == nil
     :ok = Queue.enqueue(queue, 1)
     :ok = Queue.enqueue(queue, 12)
     assert Queue.size(queue) == 2
